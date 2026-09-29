@@ -1,0 +1,17 @@
+# Normalize line endings to LF in the repo and on checkout.
+* text=auto eol=lf
+
+# Binary files: never diff or normalize.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.pdf  binary
+
+# Generated files: collapse in GitHub diffs.
+**/uv.lock                      linguist-generated=true
+**/pnpm-lock.yaml               linguist-generated=true
