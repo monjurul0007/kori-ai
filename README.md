@@ -39,8 +39,10 @@ docker build -t kori-ai .
 docker run --rm -p 8001:8001 kori-ai
 ```
 
+See [docs/architecture.md](docs/architecture.md) for the code layout.
+
 Settings come from `KORI_AI_*` environment variables (see `.env.example`).
 
 ## Contributing
 
-See [CLAUDE.md](CLAUDE.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
+See [AGENTS.md](AGENTS.md) and [CONTRIBUTING.md](CONTRIBUTING.md).

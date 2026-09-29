@@ -10,7 +10,7 @@ from kori_ai.contracts.parse import (
     ProposedTransaction,
     TransactionType,
 )
-from kori_ai.routes.parse import get_parser
+from kori_ai.parse.router import get_parser
 
 VALID = {
     "text": "lunch 250 bkash",
